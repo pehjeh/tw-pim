@@ -3,7 +3,6 @@
     "description": "Personal Information Management",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "PJ Go",
@@ -20,6 +19,12 @@
             "Pehjeh\\PIM\\": "src"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pehjeh/tw-pim"
+        }
+    ],
     "classmap": [
       "tests"
     ]
