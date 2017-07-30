@@ -1,0 +1,26 @@
+{
+    "name": "pehjeh/pim",
+    "description": "Personal Information Management",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "PJ Go",
+            "email": "pehjeh@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.2",
+        "orchestra/testbench": "^3.4",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pehjeh\\PIM\\": "src"
+        }
+    },
+    "classmap": [
+      "tests"
+    ]
+}
